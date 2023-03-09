@@ -50,3 +50,46 @@ body {
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 1440px){
+    .container {
+        max-width: 617px;
+        flex-direction: column;
+        margin-top: 34px;
+        min-height: 1024px;
+        height: 100%;
+    }
+    .main__heading {
+        font-size: 72px;
+        line-height: 83px;
+        text-align: center;
+    }
+    .main__info {
+        font-size: 22px;
+        line-height: 33px;
+        max-width: 574px;
+        text-align: center;
+    }
+    .main__layout {
+        max-height: 172px;
+        height: 100%;
+        margin-bottom: -45px;
+    }
+    .container-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 435px;
+        height: 100%;
+    }
+    h1 {
+        margin: 0px;
+    }
+    .container-right {
+        display: flex;
+        align-self: flex-end;
+    }
+    .logo {
+        font-family: 'Baloo';
+    }
+}
+
