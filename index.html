@@ -8,28 +8,38 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Poppins:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Baloo+2&family=Poppins:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="layout__header">
-            <div class="logo"></div>   
+    <div class="container">
+        <div class="container-left">
+            <div class="header">
+                <div class="layout__header">
+                    <div class="logo"><p>Head.</p></div>   
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__li"><a class="nav__link mobile" href="#">Works</a></li>
+                        <li class="nav__li"><a class="nav__link mobile" href="#">Services</a></li>
+                        <li class="nav__li"><a class="nav__link mobile" href="#">Contacts</a></li>
+                        <li class="nav__li icon"><a class="nav__link" href="#"><img src="images/icon.png" alt=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+                <div class="main__layout">
+                    <h1 class="main__heading">Musician</h1>
+                    <div class="main__info"><p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p></div>
+                </div>
         </div>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__li"><a class="nav__link" href="#">Works</a></li>
-                <li class="nav__li"><a class="nav__link" href="#">Services</a></li>
-                <li class="nav__li"><a class="nav__link" href="#">Contacts</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="layout__main">
-            <h1 class="main__heading">Musician</h1>
-            <div class="main__info"><p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p></div>
+        <div class="container-right">
+            <picture>
+                <source media="(max-width: 767px)" srcset="./images/image-mobile.png">
+                <source media="(max-width: 1440px)" srcset="./images/image-tablet.png">
+                <source media="(min-width: 1440px)" srcset="./images/img-musician.jpg">
+                <img src="images/img-musician.jpg" alt="Musician">
+            </picture>
         </div>
-    </main>
-    <div class="img"><img src="images/img-musician.jpg" alt="Musician"></div>
+    </div>
 </body>
 </html>
