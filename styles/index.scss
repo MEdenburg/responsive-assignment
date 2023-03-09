@@ -93,3 +93,41 @@ body {
     }
 }
 
+@media screen and (max-width: 767px){
+    .container {
+        margin-top: 0px;
+        max-width: 260px;
+        min-height: 568px;
+        
+    }
+    .main__heading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .main__info {
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 211px;
+        max-height: 49px;
+        height: 100%;
+    }
+    .main__layout {
+        min-height: 104px;
+        max-width: 211px;
+        position: relative;
+    }
+
+    .mobile {
+        display: none;
+    }
+    .icon {
+        display: contents;
+    }
+    .container-left {
+        min-height: 254px;
+        align-items: center;
+    }
+    .container-right {
+        align-self: center;
+    }
+}
