@@ -50,6 +50,14 @@ body {
     color: #FFFFFF;
 }
 
+.container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 690px;
+    height: 100%;
+}
+
 @media screen and (max-width: 1440px){
     .container {
         max-width: 617px;
@@ -91,6 +99,11 @@ body {
     .logo {
         font-family: 'Baloo';
     }
+
+    .icon-arrow {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 767px){
